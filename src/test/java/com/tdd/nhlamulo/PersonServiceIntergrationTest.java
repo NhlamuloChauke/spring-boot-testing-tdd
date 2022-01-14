@@ -32,7 +32,7 @@ public class PersonServiceIntergrationTest {
 		//Verify the addition
 		assertNotNull(newPerson);
 		assertNotNull(newPerson.getId());
-		assertEquals("Chauke", person.getLastName());
+		assertEquals("Chauke", newPerson.getLastName());
 	}
 
 }
